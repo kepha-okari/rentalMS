@@ -55,9 +55,6 @@ DATABASES = {
 10. Run `./manage.py runserver` or `python3.6 manage.py runserver` to run the application
 
 
-## Known Bugs
-
-No known bugs
 
 
 ## Technologies Used
