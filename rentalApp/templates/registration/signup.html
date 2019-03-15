@@ -1,0 +1,13 @@
+
+
+{% block content %}
+  <h2>Sign up</h2>
+	<form action="/signup/" method="post">
+	    {% csrf_token %}
+	    
+	    <input name="username"   type="text" placeholder="Username">
+	    <input name="emailaddress" type="email" placeholder="email">
+	    <input name="password"       type="text" placeholder="password" ="">
+	    <button type="submit">Sign up</button>
+	</form>
+{% endblock %}
