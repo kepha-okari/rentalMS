@@ -26,7 +26,7 @@ As a Tenant I would like:
 ### Installation Process
 1. Copy repolink
 2. Run `git clone REPO-URL` in your terminal
-3. Write `cd the-gram`
+3. Write `cd rental`
 4. Create a virtual environment with `virtualenv virtual` or try `python3.6 -m venv virtual`
 5. Create .env file `touch .env` and add the following:
 ```
