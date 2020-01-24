@@ -46,7 +46,7 @@ CREATE DATABASE instagram
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'instagram',
+        'NAME': 'rentalms',
         'USER': *POSTGRES_USERNAME*,
         'PASSWORD': *POSTGRES_USERNAME*,
     }
